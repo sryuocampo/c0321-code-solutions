@@ -6,29 +6,44 @@
 <body>
   <h1>Coding Form!</h1>
   <form action="">
-    <div>Email
-      <input type="text" name="email"/>
+    <div class="email">
+      <label for="email">Email</label>
     </div>
-    <div>Why is coding cool?</div>
+    <input type="text" name="email" id="email"/>
+
+    <div class="why is coding cool">
+      <label for="why is coding cool">Why is coding cool?</label>
+    </div>
     <select name="select an option">
-      <option value="select an option">Select an option</option>
-      <option value="becasue it's fun">Because it's fun</option>
-      <option value="because it's interesting">Becasue it's interesting</option>
-      <option value="becasue it's powerful">Becasue it's powerful</option>
+       <option value="select an option">Select an option</option>
+       <option value="becasue it's fun">Because it's fun</option>
+       <option value="because it's interesting">Becasue it's interesting</option>
+       <option value="becasue it's powerful">Becasue it's powerful</option>
     </select>
-    <div>Favorite Language (choose one)
-      <br/>
+
+    <div class="favorite language">
+      <label for="favorite language">Favorite language (choose one)</label>
+     </div>
       <input type="radio" name="language" value="HTML"/> HTML
       <input type="radio" name="language" value="CSS"/> CSS
       <input type="radio" name="language" value="JavaScript"/> JavaScript
-    </div> Would you like to sign up for more information
-      <br/>
-      <input type="checkbox" name="information" value="Sign me up!"/> Sign me up!
-    <div> Comments
-      <br/>
-      <textarea name="comments"></textarea>
+
+     <div class="more information">
+       <label for="more information">Would you like to sign up for more information</label>
+     </div>
+     <input type="checkbox" name="information" value="Sign me up!"/> Sign me up!
+
+
+    <div class="comments">
+      <label for="comments">Comments</label>
     </div>
+    <textarea name="comments"></textarea>
+
+
+    <div class="submit">
+      <label for="submit"></label>
       <input type="submit" name="submit" value="Submit"/>
+    </div>
   </form>
 </body>
 </html>
