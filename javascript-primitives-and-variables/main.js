@@ -2,8 +2,8 @@
 var fullName = 'Sarah Ryu Ocampo';
 var isCool = true;
 var totalPets = 1;
-var unknown;
-var never =
+var unknown = null;
+var never;
 
 console.log('value of fullName:', fullName);
 console.log('value of isCool:', isCool);
