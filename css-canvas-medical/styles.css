@@ -1,0 +1,122 @@
+.body {
+  width: 1400px;
+  margin: auto;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 20px 50px 20px 50px;
+  position: relative;
+}
+
+.navigation {
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+
+.canvas-blue {
+  width: 150px;
+}
+
+.navigation-links > a {
+  font-family: "Avenir", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  color: gray;
+  padding: 9px 22px;
+  border-radius: 5px;
+}
+
+.navigation-links > a.active {
+  background-color: rgb(10, 66, 101);
+  color: white;
+}
+
+a:link {
+  color: gray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+div.image {
+  background-image: url("./images/hero.jpg");
+  background-size: cover;
+  height: 620px;
+  width: 1300px;
+  filter: brightness(80%);
+  position: absolute;
+}
+
+.get-started {
+  text-align: left;
+  bottom: 500px;
+  color: rgb(255, 255, 255);
+  padding-right: 670px;
+  height: 620px;
+  padding-left: 49px;
+  padding-top: 30px;
+}
+
+.get-started > h1 {
+  font-family: "Tiempos Headline", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  color: white;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.get-started > p {
+  position: relative;
+  margin-bottom: 40px;
+  line-height: 2;
+  font-family: "Avenir", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.get-started > a {
+  position: relative;
+  z-index: 10;
+  font-family: "Avenir", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  padding: 16px 60px;
+  border-radius: 5px;
+  background-color: rgb(41, 68, 100);
+  color: white;
+}
+
+.practice-locations {
+  color: rgb(10, 66, 101);
+  background-color: rgb(248, 248, 248);
+  flex-direction: column;
+}
+
+.practice-locations > h2 {
+  font-family: "Tiempos Headline", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  color: rgb(10, 66, 101);
+  text-align: center;
+}
+
+.practice-locations p {
+  font-family: "Avenir", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+}
+
+.practice-locations > .row {
+  font-family: "Avenir", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+}
+
+.practice-locations > .row > .column {
+  width: 50%;
+}
