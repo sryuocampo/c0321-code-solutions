@@ -112,22 +112,18 @@ div.image {
   margin: 0 auto 30px;
 }
 
-.row > .practice-locations {
+.practice-locations > .row {
   font-family: "Avenir", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 20px;
   display: flex;
 }
 
-.practice-locations > .column {
+.practice-locations > .row > .column {
   width: 50%;
 }
 
-.row {
-  justify-content: space-between;
-}
-
-.learn-more > a {
+.learn-more a {
   font-family: "Avenir", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 22px;
@@ -137,13 +133,26 @@ div.image {
   padding: 16px 60px;
 }
 
-.learn-more > .column {
+.learn-more > .row {
   font-family: "Tiempos Headline", Arial, Helvetica, sans-serif;
   color: rgb(110, 110, 110);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
-.learn-more > h2 {
-  font-size: 25px;
+.learn-more > .row > .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.learn-more h2 {
+  font-size: 30px;
+}
+
+.learn-more p {
+  margin-top: -6px;
 }
 
 .about-us {
@@ -153,6 +162,7 @@ div.image {
 
 .canvas-white {
   width: 150px;
+  margin-bottom: 20px;
 }
 
 .about-us > .row {
@@ -160,4 +170,51 @@ div.image {
   margin-bottom: 90px;
   font-family: "Avenir", Arial, Helvetica, sans-serif;
   font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1900px;
+}
+
+.about-us > .row > .column {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+.about-us .column-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.about-us .column-right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.about-us p {
+  color: white;
+  line-height: 1.5;
+}
+
+.about-us a {
+  font-family: "Avenir", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  color: white;
+  padding-bottom: 22px;
+  border-radius: 5px;
+}
+
+.about-us h5 {
+  font-size: 18px;
+  color: white;
+}
+
+.contact a {
+  font-family: "Avenir", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin-right: 20px;
+  color: rgb(128, 126, 126);
 }
