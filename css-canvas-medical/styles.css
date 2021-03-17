@@ -13,7 +13,7 @@ section {
 
 .navigation {
   justify-content: space-between;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid rgb(206, 205, 205);
 }
 
 .canvas-blue {
@@ -53,9 +53,9 @@ div.image {
   text-align: left;
   bottom: 500px;
   color: rgb(255, 255, 255);
-  padding-right: 670px;
+  padding-right: 643px;
   height: 620px;
-  padding-left: 49px;
+  padding-left: 78px;
   padding-top: 30px;
 }
 
@@ -90,8 +90,8 @@ div.image {
 }
 
 .practice-locations {
-  color: rgb(10, 66, 101);
-  background-color: rgb(248, 248, 248);
+  color: rgb(110, 110, 110);
+  background-color: rgb(245, 243, 243);
   flex-direction: column;
 }
 
@@ -99,7 +99,7 @@ div.image {
   font-family: "Tiempos Headline", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 50px;
-  color: rgb(10, 66, 101);
+  color: rgb(110, 110, 110);
   text-align: center;
 }
 
@@ -108,15 +108,56 @@ div.image {
   font-weight: 500;
   font-size: 18px;
   text-align: center;
+  max-width: 600px;
+  margin: 0 auto 30px;
 }
 
-.practice-locations > .row {
+.row > .practice-locations {
   font-family: "Avenir", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 20px;
   display: flex;
 }
 
-.practice-locations > .row > .column {
+.practice-locations > .column {
   width: 50%;
+}
+
+.row {
+  justify-content: space-between;
+}
+
+.learn-more > a {
+  font-family: "Avenir", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  border-radius: 5px;
+  background-color: rgb(41, 68, 100);
+  color: white;
+  padding: 16px 60px;
+}
+
+.learn-more > .column {
+  font-family: "Tiempos Headline", Arial, Helvetica, sans-serif;
+  color: rgb(110, 110, 110);
+}
+
+.learn-more > h2 {
+  font-size: 25px;
+}
+
+.about-us {
+  flex-direction: column;
+  background-color: rgb(128, 126, 126);
+}
+
+.canvas-white {
+  width: 150px;
+}
+
+.about-us > .row {
+  margin-top: 70px;
+  margin-bottom: 90px;
+  font-family: "Avenir", Arial, Helvetica, sans-serif;
+  font-weight: 500;
 }
