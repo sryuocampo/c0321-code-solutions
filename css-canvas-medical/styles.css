@@ -1,4 +1,4 @@
-.body {
+.container {
   width: 1400px;
   margin: auto;
 }
@@ -152,7 +152,7 @@ div.image {
 }
 
 .learn-more p {
-  margin-top: -6px;
+  margin-top: 0;
 }
 
 .about-us {
