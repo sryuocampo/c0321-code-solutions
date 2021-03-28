@@ -1,6 +1,6 @@
 .container {
-  width: 1400px;
-  font-family: "Barlow", Arial, Helvetica, sans-serif;
+  width: 1600px;
+  font-family: 'Barlow', Arial, Helvetica, sans-serif;
 }
 
 .row {
@@ -11,7 +11,7 @@
 
 h2 {
   text-align: center;
-  font-family: "Barlow", Arial, Helvetica, sans-serif;
+  font-family: 'Barlow', Arial, Helvetica, sans-serif;
   font-weight: 700;
 }
 
@@ -25,7 +25,7 @@ p {
   text-align: center;
 }
 
-img {
+.screen {
   max-width: 90%;
   max-height: 90%;
 }
@@ -33,10 +33,9 @@ img {
 .icon {
   max-width: 20%;
   max-height: 20%;
-  margin-left: 36%;
-  margin-right: 36%;
 }
 
 section > .text {
-  font-family: "Barlow", Arial, Helvetica, sans-serif;
+  font-family: 'Barlow', Arial, Helvetica, sans-serif;
+  text-align: center;
 }
