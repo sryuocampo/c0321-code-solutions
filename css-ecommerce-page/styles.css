@@ -1,0 +1,42 @@
+.container {
+  width: 1600px;
+  font-family: 'DM Sans', Arial, Helvetica, sans-serif;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.for-sale {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+img {
+  width: 250px;
+  height: 360px;
+}
+
+.text {
+  font-weight: bold;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.cost {
+  background-color: rgb(255, 242, 231);
+  font-weight: bold;
+}
+
+.size {
+  color: rgb(214, 212, 212);
+  border-left: 2px solid rgb(214, 212, 212);
+  padding: 4px;
+}
+
+del {
+  color: rgb(214, 212, 212);
+  padding: 4px;
+}

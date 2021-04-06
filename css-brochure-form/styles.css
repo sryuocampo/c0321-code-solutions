@@ -1,0 +1,75 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-family: "Brandon Grotesque", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgba(230, 63, 41, 0.774);
+  text-align: center;
+}
+
+.type {
+  font-family: "Brandon Grotesque", Arial, Helvetica, sans-serif;
+}
+
+.button {
+  font-family: "Brandon Grotesque", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fill-in {
+  font-family: "Brandon Grotesque", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: smaller;
+  margin: 8px;
+}
+
+.submit {
+  background-color: rgba(233, 56, 33, 0.774);
+  border-radius: 300px;
+  width: 87px;
+  height: 32px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Brandon Grotesque", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+input,
+select {
+  border-radius: 5px;
+  height: 40px;
+  border: 1px solid rgb(201, 201, 201);
+  font-family: "Brandon Grotesque", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+select {
+  background-color: rgb(236, 236, 236);
+}
+
+label {
+  padding-left: 7px;
+}
+
+input {
+  font-family: "AtlasGrotesk", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}

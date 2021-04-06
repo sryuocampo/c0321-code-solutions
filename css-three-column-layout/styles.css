@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(30, 154, 236);
+}
+
+h1 {
+  color: white;
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding-top: 25px;
+  font-size: 30px;
+}
+
+.border {
+  background-color: white;
+  width: 115px;
+  height: 115px;
+  border-radius: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+}
+
+h2,
+p {
+  color: white;
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+p {
+  margin: 20px;
+}

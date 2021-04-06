@@ -1,0 +1,41 @@
+.container {
+  width: 1600px;
+  font-family: 'Barlow', Arial, Helvetica, sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Barlow', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 700;
+  text-align: center;
+}
+
+p {
+  font-weight: 400;
+  text-align: center;
+}
+
+.screen {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.icon {
+  max-width: 20%;
+  max-height: 20%;
+}
+
+section > .text {
+  font-family: 'Barlow', Arial, Helvetica, sans-serif;
+  text-align: center;
+}
