@@ -1,0 +1,25 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 50px;
+}
+
+span.correct {
+  color: rgb(24, 205, 27);
+}
+
+span.error {
+  color: red;
+  border-bottom: 3px solid red;
+}
+
+span.next {
+  border-bottom: 3px solid black;
+}
