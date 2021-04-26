@@ -53,3 +53,4 @@ function drawCircles() {
 
   divCircles.append(spanNotSelected, spanSelected);
 }
+
