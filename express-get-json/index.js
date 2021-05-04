@@ -23,12 +23,7 @@ var grades = {
 };
 
 app.get('/api/grades', (req, res) => {
-  //var students = [];
-  // for (const student in grades) {
-  //students.push(grades[student])
   res.json(Object.values(grades));
-  // }
-  //res.json(students)
 });
 
 app.listen(3000, () => {
