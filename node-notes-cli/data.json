@@ -1,1 +1,23 @@
-{"nextId":9,"notes":{"1":"The event loop is how a JavaScript runtime pushes asynchronous callbacks onto the stack once the stack is cleared.","2":"Prototypal inheritance is how JavaScript objects delegate behavior.","3":"In JavaScript, the value of `this` is determined when a function is called; not when it is defined.","4":"A closure is formed when a function retains access to variables in its lexical scope.","5":"I should buy food.","6":"I should buy food.","7":"I should buy food."}}
+{
+    "nextId": 20,
+    "notes": {
+        "1": "The event loop is how a JavaScript runtime pushes asynchronous callbacks onto the stack once the stack is cleared.",
+        "2": "Prototypal inheritance is how JavaScript objects delegate behavior.",
+        "3": "In JavaScript, the value of `this` is determined when a function is called; not when it is defined.",
+        "4": "A closure is formed when a function retains access to variables in its lexical scope.",
+        "5": "I should buy food.",
+        "6": "I should buy food.",
+        "7": "I should buy food.",
+        "9": "does this work?",
+        "10": "does this work?",
+        "11": "does this work?",
+        "12": "does this work?",
+        "13": "does this work?",
+        "14": "does this work?",
+        "15": "does this work?",
+        "16": "does this work?",
+        "17": "does this work?",
+        "18": "does this work?",
+        "19": "does this work?"
+    }
+}
