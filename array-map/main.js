@@ -21,7 +21,7 @@ const prices = numbers.map(nums => {
 console.log(prices);
 
 const upperCased = languages.map(letters => {
-  return letters.toUpperCase(letters[0]);
+  return letters.toUpperCase();
 });
 
 console.log(upperCased);
