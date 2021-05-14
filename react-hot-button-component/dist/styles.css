@@ -1,0 +1,29 @@
+.hot-button.cold {
+  background-color: rgb(53, 28, 117);
+  color: white;
+}
+
+.hot-button.cool {
+  background-color: rgb(103, 78, 167);
+  color: white;
+}
+
+.hot-button.tepid {
+  background-color: rgb(224, 102, 102);
+  color: white;
+}
+
+.hot-button.warm {
+  background-color: rgb(246, 178, 107);
+  color: black;
+}
+
+.hot-button.hot {
+  background-color: rgb(231, 231, 73);
+  color: black;
+}
+
+.hot-button.hotter {
+  background-color: rgb(255, 0, 0);
+  color: black;
+}
