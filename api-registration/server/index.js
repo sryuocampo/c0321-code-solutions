@@ -40,9 +40,7 @@ app.post('/api/auth/sign-up', (req, res, next) => {
         username
       })
     )
-    .catch(err => {
-      res.status(500).json({ err: err.message });
-    });
+    .catch(err => next(err));
 
 });
 
