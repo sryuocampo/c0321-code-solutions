@@ -37,6 +37,10 @@
   text-align: center;
 }
 
+.circles > i {
+  margin: 0 5px;
+}
+
 .image {
   text-align: center;
 }
