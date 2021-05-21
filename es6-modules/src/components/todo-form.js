@@ -1,4 +1,4 @@
-const { createElement } = require('../lib');
+import { createElement } from '../lib';
 
 class TodoForm {
   constructor(onSubmit) {
@@ -23,25 +23,27 @@ class TodoForm {
 
   render() {
     if (this.element) return this.element;
-    this.element = (
-      createElement('form', { class: 'shadow-sm mb-4' }, [
-        createElement('div', { class: 'input-group' }, [
-          createElement('input', {
-            type: 'text',
-            required: true,
-            class: 'form-control',
-            placeholder: 'What to do?'
-          }),
-          createElement('div', { class: 'input-group-append' }, [
-            createElement('button', { type: 'submit', class: 'btn btn-primary' }, 'Add Todo')
-          ])
+    this.element = createElement('form', { class: 'shadow-sm mb-4' }, [
+      createElement('div', { class: 'input-group' }, [
+        createElement('input', {
+          type: 'text',
+          required: true,
+          class: 'form-control',
+          placeholder: 'What to do?'
+        }),
+        createElement('div', { class: 'input-group-append' }, [
+          createElement(
+            'button',
+            { type: 'submit', class: 'btn btn-primary' },
+            'Add Todo'
+          )
         ])
       ])
-    );
+    ]);
     this.element.addEventListener('change', this.handleChange);
     this.element.addEventListener('submit', this.handleSubmit);
     return this.element;
   }
 }
 
-module.exports = TodoForm;
+export default TodoForm;
