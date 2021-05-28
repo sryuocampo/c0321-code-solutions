@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.row {
+  border: 3px solid black;
+  width: 820px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 250px;
+  left: 10px;
+  font-size: 40px;
+  margin-left: 25px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 250px;
+  right: 10px;
+  font-size: 40px;
+  margin-right: 25px;
+}
+
+.circles {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  left: 10px;
+  text-align: center;
+}
+
+.circles > i {
+  margin: 0 5px;
+}
+
+.image {
+  text-align: center;
+}
