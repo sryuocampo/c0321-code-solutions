@@ -5,7 +5,4 @@ function takeRight(array, count) {
     a.push(array[i]);
   }
   return a;
-  // array = []
-  // count = 7
-  // return []
 }

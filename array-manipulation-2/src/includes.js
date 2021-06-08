@@ -6,8 +6,4 @@ function includes(array, value) {
     }
   }
   return false;
-  // array ['foo', 'bar', 'baz', 'qux']
-  // value = 'bee'
-  //
-  // return [true]
 }
