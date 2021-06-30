@@ -13,6 +13,6 @@ function pick(source, keys) {
 // source = {foo: 1, bar: 2, baz: 3}
 // keys = ['foo', 'baz']
 // results = {}
-// results.foo = source.foo
+// results.foo = source.foo = 1
 // results ['baz'] = source['baz']
 // return {foo: 1, baz: 3}
